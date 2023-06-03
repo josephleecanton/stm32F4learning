@@ -12,4 +12,4 @@
 
 #endif /* FPU_H_ */
 
-
+void fpu_enable(void);
