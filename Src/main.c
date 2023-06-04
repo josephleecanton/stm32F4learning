@@ -20,7 +20,8 @@ int main(void){
 
 
 		 while(1){
-			 printf("Frank11 says Hello from Stm32\n\r"); /* printf is redirected to usart communication*/
+			 printf("Frank11 says Hello from Stm32\n\r");
+			 /* printf is redirected to usart communication*/
 
 		 }
 

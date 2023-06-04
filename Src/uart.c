@@ -49,8 +49,8 @@ USART2->CR1 |= USART_CR1_TE;        /* ENABLE transmit */
 }
 
 
-int __io_putchar(int ch){  /* special STM method to hookup fprint to USART */
-	uart_write(ch);        /*  I don't know how this works, copied from UDEMY */
+int __io_putchar(int ch){  /* special STM32CubeIDE method to hookup fprint to USART */
+	uart_write(ch);        /*  See file Src/syscalls.c for hints on this hookup */
 	return ch;
 }
 
